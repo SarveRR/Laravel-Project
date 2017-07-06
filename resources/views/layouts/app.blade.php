@@ -29,10 +29,19 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        Table&nbsp;
+                        Table Cars&nbsp;
+                    </a>
+                    <a class="navbar-brand" href="{{ url('/czesci') }}">
+                        Table czesci_car&nbsp;
                     </a>
                     <a class="navbar-brand" href="{{ url('/add') }}">
-                        Insert&nbsp;
+                        Insert car&nbsp;
+                    </a>
+                    <a class="navbar-brand" href="{{ url('/addCzesc') }}">
+                        Insert czesc&nbsp;
+                    </a>
+                    <a class="navbar-brand" href="{{ url('/search') }}">
+                        Search&nbsp;
                     </a>
                     <a class="navbar-brand" href="{{ url('/contact') }}">
                         Contact&nbsp;

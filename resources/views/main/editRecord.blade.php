@@ -2,7 +2,7 @@
 
 <link href="{{ asset('css/center.css') }}" rel="stylesheet">
 
-@section('title')Car @endsection
+@section('title')Success @endsection
 
 @section('content')
 	<div id="center">

@@ -6,6 +6,7 @@
 
 @section('content')
 	<form action="{{route('main.editRecord', $car)}}" method="post">
+		<h1>Edytuj auto</h1>
 
 		<input type="hidden" name="_token" value="{{csrf_token()}}">
 

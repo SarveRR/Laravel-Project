@@ -3,6 +3,7 @@
 @section('content')
 
 	<table class="table table-hover">
+	<h1>Tabela cars</h1>
 		<tr>
 			<td><h3>Marka</h3></td>
 			<td><h3>Model</h3></td>

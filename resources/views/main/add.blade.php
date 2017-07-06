@@ -5,7 +5,7 @@
 @section('content')
 
 	<form action="{{route('main.save')}}" method="post">
-
+	<h1>Dodaj auto</h1>
 		<input type="hidden" name="_token" value="{{csrf_token()}}">
 
 		<div class="form-group">
